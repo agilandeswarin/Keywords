@@ -1,0 +1,29 @@
+Super Keyword: It will all the parent class 
+
+package Practices;
+
+class Animals{
+	
+String Name;
+
+	Animals(int a){                         // Parent class
+	System.out.println(a);
+}
+	}
+class Dragon extends Animals
+{
+	Dragon()
+	{
+      super(12);               // First parent class will call
+		System.out.println("Dragon");
+	}
+}
+
+public class Keywordsuper {
+
+	public static void main(String[] args) {
+	Dragon d1=new Dragon();
+	
+	}
+
+}
