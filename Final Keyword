@@ -1,1 +1,32 @@
+Final Keywords: It cannot be overridden by subclass.This prevents subclass from modifying it behaviours.It will be unchanged
+
+package Practices;
+
+class Dogies {
+	final void breed()               // It will be constant it cannot be unchanged
+	{
+		System.out.println("Dog breed will be Beagle ");
+	}
+}
+ class Puppies extends Dogies{
+	 void breedies()
+	 {
+		 System.out.println("So cute Welcome to my home new one");
+	 }
+ }
+
+
+public class Finalkeyword {
+
+	public static void main(String[] args) {
+
+		Dogies d21=new Dogies();
+		d21.breed();
+		
+		Puppies p1=new Puppies();
+		p1.breedies();
+
+	}
+
+}
 
