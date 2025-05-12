@@ -1,0 +1,29 @@
+Interface: It tells what a class should do, but not how to do it.
+It supports abstraction and multiple inheritance in Java.
+It should not create an object.
+
+PROGRAM:
+package Practices;
+
+interface Language
+{
+	void name(String name);
+}
+
+class Programminglanguage{
+	void name(String name) {
+		System.out.println("Programming language: "+name);	}
+			
+	
+}
+
+public class Implementssimple {
+
+	public static void main(String[] args) {
+		
+    Programminglanguage p1=new Programminglanguage();
+    p1.name("JAVA");
+   
+	}
+
+}
